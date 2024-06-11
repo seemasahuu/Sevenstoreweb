@@ -25,20 +25,20 @@ export const PoojaPackeje = () => {
             <div className='flex m-3'>
                 <div className='h-24 bg-slate-300 shadow-md w-[250px] m-1 rounded-xl lg:w-[200px] lg:rounded-3xl relative' onClick={() => handleClick(1)}>
                     <img src={selectedId === 1 ? imgindividualselected : imgindividualunselectd} alt=" "/>
-                    <span className='absolute top-[95%] right-[30%]' style={{ color: selectedId === 1 ? 'white' : 'orange' }}>₹851</span>
+                    <span className='absolute top-[92%] right-[25%]' style={{ color: selectedId === 1 ? 'white' : 'orange' }}>₹851</span>
                 </div>
              
                 <div className='h-24 bg-slate-300 shadow-md w-[250px] m-1 rounded-xl lg:w-[200px] lg:rounded-3xl relative' onClick={() => handleClick(2)}>
                     <img src={selectedId === 2 ? imgpartnerselected : imgpartenerunslected} alt=" " />
-                    <span className='absolute top-[95%] right-[30%]'  style={{ color: selectedId === 2 ? 'white' : 'blue' }}>₹1251</span>
+                    <span className='absolute top-[92%] right-[25%]'  style={{ color: selectedId === 2 ? 'white' : 'blue' }}>₹1251</span>
                 </div>
                 <div className='h-24 bg-slate-300 shadow-md w-[250px] m-1 rounded-xl lg:w-[200px] lg:rounded-3xl relative' onClick={() => handleClick(3)}>
                     <img src={selectedId === 3 ? imgfamilyselected : imgfamilyunselected} alt=" " />
-                    <span className='absolute top-[95%] right-[30%]'  style={{ color: selectedId === 3 ? 'white' : 'red' }}>₹2001</span>
+                    <span className='absolute top-[92%] right-[25%]'  style={{ color: selectedId === 3 ? 'white' : 'red' }}>₹2001</span>
                 </div>
                 <div className='h-24 bg-slate-300 shadow-md w-[250px] m-1 rounded-xl lg:w-[200px] lg:rounded-3xl relative' onClick={() => handleClick(4)}>
                     <img src={selectedId === 4 ? imgjointfamilyselected : imgjointfamilyunselected} alt=" e" />
-                    <span className='absolute top-[95%] right-[30%]'  style={{ color: selectedId === 4 ? 'white' : 'indigo' }}>₹3001</span>
+                    <span className='absolute top-[92%] right-[25%]'  style={{ color: selectedId === 4 ? 'white' : 'indigo' }}>₹3001</span>
                 </div>
             </div>
 

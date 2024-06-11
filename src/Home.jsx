@@ -33,19 +33,22 @@
 // export default Home;
 
 import React from "react";
-import { Header } from "./components/Header";
+// import { Header } from "./components/Header";
+// import {Prodectpage} from "./pages/Prodectpage";
+import { PoojaPackeje } from "./PoojaPackeje";
 
 const Home = () => {
  
 
  
   return (
-    <div className="min-h-screen flex flex-col">
-     <Header/>
-      <div className="h-screen">
-        <div className=""></div>
-      </div>
-    </div>
+    <div>
+    {/* <Header />
+    <hr />
+    <Prodectpage/> */}
+    <PoojaPackeje/>
+    
+  </div>
   );
 };
 

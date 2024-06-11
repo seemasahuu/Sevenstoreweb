@@ -11,7 +11,7 @@ export const Header = () => {
       }
   return (
     <div>
-         <div className=" flex h-16 w-[47vh] lg:w-full fixed top-0 left-0 right-0 bg-slate-300">
+         <div className=" flex h-16 w-[47vh] lg:w-full fixed top-0 left-0 right-0">
         <div className="  h-10 w-10 my-3 mx-6 hidden lg:block"></div>
 
         <div className="h-8 w-96 lg:w-28 my-5">
